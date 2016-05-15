@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  form(name="color1", action="/click", method="post")
+    input(type="colorR", name="One" , value = "#ff0000")
+    input(type="colorG", name="One" , value = "#ff0000")
+    input(type="colorB", name="One" , value = "#ff0000")
+    input(type="submit", value="1")
+  form(name="color2" action="/lightTwo", method="post")
+    input(type="colorR", name="One" , value = "#ff0000")
+    input(type="colorG", name="One" , value = "#ff0000")
+    input(type="colorB", name="One" , value = "#ff0000")
+    input(type="submit", value="2")
+  form(name="color3", action="/LightThree", method="post")
+    input(type="colorR", name="One" , value = "#ff0000")
+    input(type="colorG", name="One" , value = "#ff0000")
+    input(type="colorB", name="One" , value = "#ff0000")
+    input(type="submit", value="3")
