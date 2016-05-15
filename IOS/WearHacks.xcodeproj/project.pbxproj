@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221C5BE61C9CE725004519C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C5BE51C9CE725004519C7 /* AppDelegate.swift */; };
+		221C5BE81C9CE725004519C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C5BE71C9CE725004519C7 /* ViewController.swift */; };
+		221C5BEB1C9CE725004519C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221C5BE91C9CE725004519C7 /* Main.storyboard */; };
+		221C5BED1C9CE725004519C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221C5BEC1C9CE725004519C7 /* Assets.xcassets */; };
+		221C5BF01C9CE725004519C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221C5BEE1C9CE725004519C7 /* LaunchScreen.storyboard */; };
+		221C5BF81C9D048D004519C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C5BF71C9D048D004519C7 /* MapViewController.swift */; };
+		2228F2C41C9E30E9009F124A /* SetTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2228F2C31C9E30E9009F124A /* SetTripViewController.swift */; };
+		D4CA6BBC5656EE0E24C09F82 /* Pods_WearHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9269FBC1C42012A324F96A /* Pods_WearHacks.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		221C5BE21C9CE725004519C7 /* WearHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WearHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		221C5BE51C9CE725004519C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		221C5BE71C9CE725004519C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		221C5BEA1C9CE725004519C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		221C5BEC1C9CE725004519C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		221C5BEF1C9CE725004519C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		221C5BF11C9CE725004519C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221C5BF71C9D048D004519C7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2228F2C31C9E30E9009F124A /* SetTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTripViewController.swift; sourceTree = "<group>"; };
+		2228F2C51C9E4426009F124A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2228F2C61C9E4426009F124A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2228F2C71C9E4426009F124A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2228F2C81C9E4426009F124A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2228F2C91C9E4426009F124A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2228F2CA1C9E4426009F124A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2228F2CB1C9E4426009F124A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2228F2CC1C9E4426009F124A /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		2228F2CD1C9E4426009F124A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2228F2CE1C9E4426009F124A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2228F2CF1C9E4426009F124A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2228F2D01C9E4426009F124A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2228F2E01C9E4876009F124A /* WearHacks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WearHacks-Bridging-Header.h"; sourceTree = "<group>"; };
+		B0AB112EA606348F6C772906 /* Pods-WearHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WearHacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-WearHacks/Pods-WearHacks.release.xcconfig"; sourceTree = "<group>"; };
+		B9C39D15BF6ED352BFACA727 /* Pods-WearHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WearHacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WearHacks/Pods-WearHacks.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9269FBC1C42012A324F96A /* Pods_WearHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WearHacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221C5BDF1C9CE725004519C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CA6BBC5656EE0E24C09F82 /* Pods_WearHacks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221C5BD91C9CE725004519C7 = {
+			isa = PBXGroup;
+			children = (
+				2228F2E01C9E4876009F124A /* WearHacks-Bridging-Header.h */,
+				221C5BE41C9CE725004519C7 /* WearHacks */,
+				221C5BE31C9CE725004519C7 /* Products */,
+				C4B5A96A81D508D5E4ABAF0A /* Pods */,
+				B4835E2F1F71C149F82A9916 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		221C5BE31C9CE725004519C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				221C5BE21C9CE725004519C7 /* WearHacks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		221C5BE41C9CE725004519C7 /* WearHacks */ = {
+			isa = PBXGroup;
+			children = (
+				221C5BE51C9CE725004519C7 /* AppDelegate.swift */,
+				221C5BE71C9CE725004519C7 /* ViewController.swift */,
+				221C5BE91C9CE725004519C7 /* Main.storyboard */,
+				2228F2C31C9E30E9009F124A /* SetTripViewController.swift */,
+				221C5BF71C9D048D004519C7 /* MapViewController.swift */,
+				221C5BEC1C9CE725004519C7 /* Assets.xcassets */,
+				221C5BEE1C9CE725004519C7 /* LaunchScreen.storyboard */,
+				221C5BF11C9CE725004519C7 /* Info.plist */,
+			);
+			path = WearHacks;
+			sourceTree = "<group>";
+		};
+		B4835E2F1F71C149F82A9916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2228F2C51C9E4426009F124A /* AVFoundation.framework */,
+				2228F2C61C9E4426009F124A /* CoreData.framework */,
+				2228F2C71C9E4426009F124A /* CoreLocation.framework */,
+				2228F2C81C9E4426009F124A /* CoreText.framework */,
+				2228F2C91C9E4426009F124A /* GLKit.framework */,
+				2228F2CA1C9E4426009F124A /* ImageIO.framework */,
+				2228F2CB1C9E4426009F124A /* libc++.tbd */,
+				2228F2CC1C9E4426009F124A /* libicucore.tbd */,
+				2228F2CD1C9E4426009F124A /* libz.tbd */,
+				2228F2CE1C9E4426009F124A /* OpenGLES.framework */,
+				2228F2CF1C9E4426009F124A /* QuartzCore.framework */,
+				2228F2D01C9E4426009F124A /* SystemConfiguration.framework */,
+				FE9269FBC1C42012A324F96A /* Pods_WearHacks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B5A96A81D508D5E4ABAF0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9C39D15BF6ED352BFACA727 /* Pods-WearHacks.debug.xcconfig */,
+				B0AB112EA606348F6C772906 /* Pods-WearHacks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		221C5BE11C9CE725004519C7 /* WearHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221C5BF41C9CE725004519C7 /* Build configuration list for PBXNativeTarget "WearHacks" */;
+			buildPhases = (
+				3BC4A1EC3156BB2201FCCD38 /* Check Pods Manifest.lock */,
+				221C5BDE1C9CE725004519C7 /* Sources */,
+				221C5BDF1C9CE725004519C7 /* Frameworks */,
+				221C5BE01C9CE725004519C7 /* Resources */,
+				AAD26616E79F80330175705A /* Embed Pods Frameworks */,
+				4BF8360A4F2D83B8DC6935A6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WearHacks;
+			productName = WearHacks;
+			productReference = 221C5BE21C9CE725004519C7 /* WearHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221C5BDA1C9CE725004519C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Salman Jalali";
+				TargetAttributes = {
+					221C5BE11C9CE725004519C7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 221C5BDD1C9CE725004519C7 /* Build configuration list for PBXProject "WearHacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 221C5BD91C9CE725004519C7;
+			productRefGroup = 221C5BE31C9CE725004519C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221C5BE11C9CE725004519C7 /* WearHacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		221C5BE01C9CE725004519C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221C5BF01C9CE725004519C7 /* LaunchScreen.storyboard in Resources */,
+				221C5BED1C9CE725004519C7 /* Assets.xcassets in Resources */,
+				221C5BEB1C9CE725004519C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC4A1EC3156BB2201FCCD38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF8360A4F2D83B8DC6935A6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WearHacks/Pods-WearHacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD26616E79F80330175705A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WearHacks/Pods-WearHacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221C5BDE1C9CE725004519C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228F2C41C9E30E9009F124A /* SetTripViewController.swift in Sources */,
+				221C5BE81C9CE725004519C7 /* ViewController.swift in Sources */,
+				221C5BF81C9D048D004519C7 /* MapViewController.swift in Sources */,
+				221C5BE61C9CE725004519C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		221C5BE91C9CE725004519C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221C5BEA1C9CE725004519C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		221C5BEE1C9CE725004519C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221C5BEF1C9CE725004519C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		221C5BF21C9CE725004519C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		221C5BF31C9CE725004519C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		221C5BF51C9CE725004519C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C39D15BF6ED352BFACA727 /* Pods-WearHacks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WearHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.WearHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WearHacks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		221C5BF61C9CE725004519C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AB112EA606348F6C772906 /* Pods-WearHacks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WearHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.WearHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WearHacks-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221C5BDD1C9CE725004519C7 /* Build configuration list for PBXProject "WearHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221C5BF21C9CE725004519C7 /* Debug */,
+				221C5BF31C9CE725004519C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221C5BF41C9CE725004519C7 /* Build configuration list for PBXNativeTarget "WearHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221C5BF51C9CE725004519C7 /* Debug */,
+				221C5BF61C9CE725004519C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221C5BDA1C9CE725004519C7 /* Project object */;
+}

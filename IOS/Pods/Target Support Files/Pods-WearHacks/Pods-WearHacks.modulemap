@@ -1,0 +1,6 @@
+framework module Pods_WearHacks {
+  umbrella header "Pods-WearHacks-umbrella.h"
+
+  export *
+  module * { export * }
+}
